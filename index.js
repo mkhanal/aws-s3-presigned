@@ -1,7 +1,9 @@
 const config = {
 	region: 'ap-southeast-2',
-	accessKeyId: 'AKIA2RGY7TGX3ROPSPPC',
-	secretAccessKey: '****',
+	credentials:{
+		accessKeyId: 'AKIA2RGY7TGX3ROPSPPC',
+		secretAccessKey: '****',
+	}
 }
 
 const bucket = 'dos-nch-dev-call-recordings';
